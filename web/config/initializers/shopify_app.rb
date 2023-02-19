@@ -8,7 +8,7 @@ ShopifyApp.configure do |config|
   ]
   config.application_name = "My Shopify App"
   config.old_secret = ""
-  config.scope = ENV.fetch("SCOPES", "write_products") # See shopify.app.toml for scopes
+  config.scope = ENV.fetch("SCOPES", "write_products,write_orders,read_orders,read_all_orders, write_marketplace_orders") # See shopify.app.toml for scopes
   # Consult this page for more scope options: https://shopify.dev/api/usage/access-scopes
   config.embedded_app = true
   config.after_authenticate_job = false

@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_22_200143) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_22_101215) do
+  create_table "custom_thanks", force: :cascade do |t|
+    t.text "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "emphasis", default: 0
+  end
+
   create_table "shops", force: :cascade do |t|
     t.string "shopify_domain", null: false
     t.string "shopify_token", null: false
@@ -18,16 +25,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_22_200143) do
     t.datetime "updated_at", null: false
     t.string "access_scopes"
     t.index ["shopify_domain"], name: "index_shops_on_shopify_domain", unique: true
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.bigint "shopify_user_id", null: false
-    t.string "shopify_domain", null: false
-    t.string "shopify_token", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "access_scopes"
-    t.index ["shopify_user_id"], name: "index_users_on_shopify_user_id", unique: true
   end
 
 end

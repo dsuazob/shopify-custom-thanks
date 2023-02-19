@@ -8,8 +8,11 @@ Rails.application.routes.draw do
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  get "/api/products/count", to: "products#count"
-  get "/api/products/create", to: "products#create"
+  get "/api/custom_thanks", to: "custom_thanks#index"
+  post "/api/custom_thanks", to: "custom_thanks#create"
+  get "/api/custom_thanks/:id", to: "custom_thanks#show"
+  patch "/api/custom_thanks/:id", to: "custom_thanks#update"
+  delete "/api/custom_thanks/:id", to: "custom_thanks#destroy"
 
   # Any other routes will just render the react app
   match "*path" => "home#index", via: [:get, :post]
