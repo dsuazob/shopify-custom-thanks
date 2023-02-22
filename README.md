@@ -9,7 +9,7 @@ This is an app in response to this prompt:
 
 ## Shopify store:
 
-[Customer order journey to app:](https://go-tuned.myshopify.com/)
+[https://go-tuned.myshopify.com](https://go-tuned.myshopify.com/)
 
 
 ## Walkthrough for Admin
