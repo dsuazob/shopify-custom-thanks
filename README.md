@@ -16,6 +16,14 @@ This is an app in response to this prompt:
 
 Admin order journey to app:
 
+![](walkthroughCustomer1.gif)
+
+![](walkthroughCustomer2.gif)
+
+![](walkthroughCustomer3.gif)
+
+![](walkthroughCustomer4.gif)
+
 ## Walkthrough for Customer
 
 Customer order status page:
