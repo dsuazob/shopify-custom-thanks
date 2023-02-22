@@ -13,7 +13,7 @@ This is an app in response to this prompt:
 
 ## Implementation:
 
-Using Checkout UI extension and Admin Links extension. Could not for the life of me find a way to show html text through the checkout UI, which seems to be on purpose for Shopify. Hope you enjoy my compromise to meeting the full requirement. If I wanted to extend this further I would add pagination and search functionality, was more focused on getting my hands dirty with the4 shopify ecosystem.
+Using Checkout UI extension and Admin Links extension. Could not for the life of me find a way to show html text through the checkout UI, which seems to be on purpose for Shopify. Hope you enjoy my compromise to meeting the full requirement. If I wanted to extend this further I would add pagination and search functionality, was more focused on getting my hands dirty with the shopify ecosystem.
 
 ## Walkthrough for Admin
 
