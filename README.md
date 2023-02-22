@@ -9,6 +9,8 @@ This is an app in response to this prompt:
 
 ## Walkthrough
 
-Shopify apps are built on a variety of Shopify tools to create a great merchant experience. The [create an app](https://shopify.dev/apps/getting-started/create) tutorial in our developer documentation will guide you through creating a Shopify app using this template.
+Customer order journey to app:
+
+![](walkthroughCustomer.gif)
 
 
