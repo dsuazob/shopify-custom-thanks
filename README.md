@@ -7,9 +7,7 @@ This is an app in response to this prompt:
 - The app should integrate with Shopify’s merchant admin experience and follow Shopify’s guidelines and conventions as closely as possible. You should be - - able to successfully install your app on a test Shopify store. Your app should work well with Shopify’s Dawn storefront theme, at a minimum.
 
 
-Rather than cloning this repo, you can use your preferred package manager and the Shopify CLI with [these steps](#installing-the-template).
-
-## Benefits
+## Walkthrough
 
 Shopify apps are built on a variety of Shopify tools to create a great merchant experience. The [create an app](https://shopify.dev/apps/getting-started/create) tutorial in our developer documentation will guide you through creating a Shopify app using this template.
 
