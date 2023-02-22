@@ -16,7 +16,7 @@ This is an app in response to this prompt:
 
 Admin order journey to app:
 
-![](walkthroughCustomer1.gif)
+![](walkthroughCustomer5.gif)
 
 ![](walkthroughCustomer2.gif)
 
