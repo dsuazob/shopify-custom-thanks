@@ -7,9 +7,18 @@ This is an app in response to this prompt:
 - The app should integrate with Shopify’s merchant admin experience and follow Shopify’s guidelines and conventions as closely as possible. You should be - - able to successfully install your app on a test Shopify store. Your app should work well with Shopify’s Dawn storefront theme, at a minimum.
 
 
-## Walkthrough
+## Shopify store:
 
-Customer order journey to app:
+[Customer order journey to app:](https://go-tuned.myshopify.com/)
+
+
+## Walkthrough for Admin
+
+Admin order journey to app:
+
+## Walkthrough for Customer
+
+Customer order status page:
 
 ![](walkthroughCustomer.gif)
 
